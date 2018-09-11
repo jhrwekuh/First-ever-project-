@@ -1,0 +1,175 @@
+.container {
+    max-width: 1440px;
+}
+
+
+/* Podzialy rozdzialka i alokacja */
+
+.Menu, .omnie {
+    width: 20%;
+}
+
+.artykul {
+    width: 40%;
+}
+
+.Menu, .omnie, .artykul {
+    float: left;
+}
+
+/* Stylistyka kolumn */
+
+.Menu {
+    padding: 0px;
+    margin: 0px;
+    background-color: gray;
+}
+
+.artykul {
+    background-color: whitesmoke;
+}
+
+.omnie {
+    background-color: rosybrown;
+}
+
+/* Stylistyka menu */
+
+.menulist {
+    padding: 0px;
+    list-style: none;
+    width: 100%;
+    text-align: center;
+}
+
+.menubutton a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Verdana;
+}
+
+.menubutton {
+    border-bottom: 2px solid black;
+    padding: 5px;
+}
+
+.menubutton:first-child {
+    border-top: 2px solid black;
+}
+
+.menubutton:hover {
+    background-color: darkgrey;   
+}
+
+.menubutton:active {
+    background-color: black;
+}
+
+.Menu {
+    border: 3px solid black;
+    border-right: none;
+}
+/* Stylistyka artykulu */
+
+.artykul article {
+    font-family: Calibri;
+    padding: 15px;
+    text-align: left;
+    border-top: 2px solid grey;
+    
+}
+
+.artykul {
+    border: 3px solid black;
+}
+
+.artykul .memik {
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 10px 10px;
+}
+
+.artykul figcaption {
+    text-align: right;
+    font-size: 15px;
+    font-style: oblique;
+}
+
+.artykul .data {
+    float: right;
+}
+
+.artykul p, .data {
+    margin-left: 6px;
+    margin-right: 6px;
+    font-family: 'Courier New';
+}
+
+/* Stylistyka o mnie */
+
+.omnie {
+    border: 3px solid black;
+    border-left:none;
+    text-align: center;
+}
+
+.omnie h1 {
+    margin-bottom: -15px;
+}
+
+.omnie p {
+    padding: 2px;
+    font-family: 'Times New Roman'; 
+}
+
+/* Komentarze */
+
+.komentarze {
+   text-align: center;
+   padding: 10px;
+   background-color: beige;
+   border-top: 3px solid black;
+}
+
+.komentarze h5 {
+    padding: none;
+    margin-top: 0px;
+    border-bottom: 1px solid grey;
+    font-weight: 600;
+    font-size: 33px;
+    font-family: 'Lucida Sans';
+}
+/* Formularz */
+
+.formularz {
+    float:left;
+    width: 20%;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+    text-align: center;
+    background-color: gainsboro;
+    padding-bottom: 5px;
+}
+
+.formularz h5 {
+    padding: none;
+    margin-top: 5px;
+    border-bottom: 1px solid grey;
+    font-weight: 600;
+    font-size: 23px;
+    font-family: 'Lucida Sans';
+    margin-bottom: 5px;
+}
+
+.formularz p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.formularz .przycisk:active {
+    mailto:jhrwekuh1@gmail.com;
+}
